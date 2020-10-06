@@ -83,8 +83,8 @@ async function searcherGet(texto, country, city, titleText){
         <div class="card-body">
             <h5 class="card-title">${it.nombreProducto}</h5>
             <p class="card-text" style="height: 80px;">${it.descripcion}</p>
+            <img src="${urlFotos}${it.fotos[0]}" alt="" class="mb-3 text-center" width=100 height=100>
             <p class="card-text ${colorState} state-text">${it.estado}</p>
-            <img src="${urlFotos}${it.fotos[0]}" alt="" class="mb-3" width=100 height=100>
         </div>
     </article>`)
     }
