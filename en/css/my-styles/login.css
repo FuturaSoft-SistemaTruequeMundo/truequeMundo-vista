@@ -1,0 +1,77 @@
+body{
+    background-color: #1142CD;
+}
+
+#top-lang{
+    width: 100vw;
+    height: 5vh;
+}
+
+#principal{
+    width: 100vw;
+    height: 95vh;
+}
+
+.card{
+    width: 15rem;
+    margin: 20px;
+}
+
+#sectionLogin{
+    width: 100%;
+}
+
+#sectionLogin article{
+    width: 70%;
+    margin: 10px 0;
+}
+
+#frmEmailLogin, #frmPasswordLogin, #frmEmail, #frmPassword{
+    height: 30px;
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+}
+
+#frmFirstName, #frmLastName{
+    height: 30px;
+    width: 49%;
+    border-radius: 2px;
+    border: none;
+}
+
+#formLogin, #formSignup{
+    width: -moz-available;
+}
+
+.m-input{
+    width: -moz-available;
+}
+
+.btn-bkg{
+    background-color: #001D9F;
+}
+
+.font-color{
+    color: white;
+}
+
+.font-color:hover{
+    color: #001D9F;
+}
+
+.img-logo{
+    width: 100%;
+}
+
+@media screen and (min-width: 700px){
+    #sectionLogin article{
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    #sectionLogin article{
+        width: 20%;
+    }
+}

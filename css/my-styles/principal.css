@@ -1,0 +1,149 @@
+body{
+    background-color: #F8FAFB;
+}
+
+.font-color{
+    color: white;
+}
+
+.font-color:hover{
+    color: #001D9F;
+}
+
+#header{
+    width: 100%;
+    background-color: #1142CD;
+    margin: 0;
+}
+
+#headerTopLeft, #headerTopRight{
+    height: 80px;
+}
+
+#headerTop, #headerBottom{
+    width: 80%;
+}
+
+#headerBottom{
+    font-size: 1.1em;
+}
+
+.img-logo{
+    height: 50px;
+}
+
+#formText{
+    height: 38px;
+    border-radius: 4px;
+}
+
+.btn-bkg{
+    background-color: #001D9F;
+}
+
+.container-principal{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#principal{
+    background-color: #F8FAFB;
+}
+
+#sectionPrincipal{
+    padding: 10px auto;
+}
+
+.card{
+    width: 17rem;
+    margin: 10px auto;
+}
+
+#footer{
+    width: 100%;
+    background-color: #1142CD;
+    margin: 0;
+}
+
+.anchor{
+    width: 100%;
+}
+
+.btn-contact{
+    width: 50%;
+}
+
+#btnUser, #btnBell, #btnSearch, #btnMenu{
+    font-size: 1.3em;
+}
+
+#btnSearch, #btnMenu{
+    display:none;
+}
+
+.item-searcher{
+    height: 33px;
+    margin-right: 3px;
+    border-radius: 2px;
+    border: none;
+}
+
+.card-text .card-height{
+    height: 100px;
+}
+
+.label-style{
+    width: 120px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tam-data{
+    width: 100%;
+}
+
+.tam-data2{
+    width: 90%;
+    margin: 0 .5em;
+}
+
+#btnWatchMore, #btnAddProduct, #btnAddService{
+    display: none;
+}
+
+#headerBottom ul li{
+    display: none;
+}
+
+#titlePrincipal{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text-center{
+    width: 50%;
+}
+
+.state-text{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+@media screen and (max-width: 1300px){
+    #headerTop, #headerBottom{
+        width: 95%;
+    }
+
+    .container-principal{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .container-principal{
+        width: 95%;
+    }
+}
+
